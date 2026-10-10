@@ -1,0 +1,7 @@
+Adafruit_DHT
+opencv-python
+picamera
+pyOpenGL
+pygame
+pyserial
+web.py

@@ -1,0 +1,69 @@
+# Environment and local configuration
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.envrc
+
+# Logs and temporary files
+logs/
+*.log
+cache/
+tmp/
+temp/
+
+# Build and coverage outputs
+build/
+dist/
+coverage/
+htmlcov/
+*.egg-info/
+
+# Local databases and dumps
+*.sqlite
+*.sqlite3
+*.db
+*.sql
+*.dump
+
+# Backups and local copies
+*.bak
+*.backup
+*.old
+*.copy
+
+# Credentials and private keys
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+service-account.json
+firebase-adminsdk*.json
+secrets.json
+secrets.yml
+auth.json
+
+# Generated media from Raspberry Pi camera demos
+foto.jpg
+img*.jpg
+video.h264
+
+# Large archives and executables
+*.zip
+*.rar
+*.7z
+*.exe
